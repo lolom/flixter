@@ -207,6 +207,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  actionmailer
   bootstrap (~> 4.0.0.beta)
   byebug
   carrierwave (~> 1.0)
