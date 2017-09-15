@@ -69,3 +69,5 @@ gem "figaro"
 gem "fog-aws"
 
 gem "actionmailer"
+
+gem 'devise'
