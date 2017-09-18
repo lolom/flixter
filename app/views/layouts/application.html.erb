@@ -13,14 +13,15 @@
   <body>
 
 
-  <div id="flex-content-container">
-  <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+   <div id="flex-content-container">
+      <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        
   <%= link_to 'Flixter', root_path, class: 'navbar-brand' %>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
      <ul class="navbar-nav mr_auto mt_2 mt_md-0">
         <li class="nav-item">
         <%= link_to 'See All Courses', courses_path %>

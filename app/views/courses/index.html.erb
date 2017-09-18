@@ -1,4 +1,7 @@
 <br />
+<br />
+<br />
+<br />
 
 <div class="booyah-box col-10 offset-1">
   <h1 class="text-center">Learn something today</h1>
@@ -7,20 +10,20 @@
    <% @courses.each do |course| %>
     <h2 class="text-center">
       <%= link_to course.title, course_path(course) %>
-    </h2>
+    </h2><br />
 
     <br />
-    <div class="row">
-    <div class="col-sm-8 col-12">
-      <%= image_tag course.image, class: 'img-fluid' %>
-    </div>
-    <div class="col-sm-8 col-12">
+    <br />
+    <div class="text-center"><%= image_tag course.image, class: "img-fluid text-center" %></div>
+    <br/>
+    <br />
+    <div class="text-center">
       <%= course.description %>
+    </div><br />
+    <div class="text-center">
+      <%= link_to 'More Details...', course_path(course), class: 'btn btn-success' %>
     </div>
-    <div class="col-sm-4 col-12 text-center">
-      <%= link_to 'More Details...', course_path(course), class: 'btn btn-primary btn-large' %>
-    </div>
-    </div>
+    <hr /><br /><br /> 
     <br class="clr" />
   <% end %>
 </div>
