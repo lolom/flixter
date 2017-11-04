@@ -150,3 +150,20 @@ ul .header .fa {
 .lessons li p {
   margin: 0;
 }
+
+.navbar-nav .nav-link {
+  padding: 0 !important;
+  color: white;
+}
+
+.navbar-brand {
+  font-size: 2rem !important;
+}
+
+#flex-content-container > div > div.row > div.col-sm-8.col-12 { 
+  word-wrap: break-word;
+}
+
+#flex-content-container > div { 
+  word-wrap: break-word;
+}

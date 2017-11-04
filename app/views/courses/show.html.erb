@@ -1,9 +1,6 @@
 <br />
 <br />
 <br />
-<br />
-
-<br />
 
 <div class="booyah-box col-10 offset-1">
   <h1><%= @course.title %></h1>
@@ -21,6 +18,7 @@
         <%= link_to 'Administer', instructor_course_path(@course), class: 'btn btn-danger btn-large' %>
       <% end %>
 
+      <br />
       <br />
 
       <% if current_user %>
@@ -47,7 +45,7 @@
     </div>
 
     <br />
-      <br />
+    <br />
 
     <div class="col-sm-8 col-12">
       <%= @course.description %>
