@@ -15,12 +15,13 @@
       <br />
       <%= image_tag course.image, class: 'img-fluid' %>
       <br />
+      <br />
       <div class="row">
         <div class="col-12 col-sm-8">
           <%= course.description %>
         </div>
-        <div class="col-12 col-sm-4 text-center">  
-          <%= link_to "More Info...", course_path(course), class: 'btn btn-lg btn-primary' %>
+        <div class="col-12 col-sm-4">  
+          <%= link_to "More Info...", course_path(course), class: 'text-center btn btn-lg btn-primary' %>
         </div>
       </div>  
       <hr class="col-8 offset-2">
@@ -35,13 +36,14 @@
         <%= link_to course.title, course_path(course) %>
       </h3>
       <br />
-      <%= image_tag course.image, class: 'img-fluid' %>
+      <%= image_tag course.image, class: 'img-fluid text-center' %>
+      <br />
       <br />
       <div class="row">
         <div class="col-12 col-sm-8">
           <%= course.description %>
         </div>  
-        <div class="col-12 col-sm-4 text-center">  
+        <div class="col-12 col-sm-4">  
           <%= link_to "More Info...", course_path(course), class: 'btn btn-lg btn-primary' %>
         </div>
       </div>   
